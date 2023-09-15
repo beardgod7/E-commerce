@@ -1,0 +1,37 @@
+ "version": "1.0.0",
+  "description": "projects",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -L app.js"
+  },
+  "keywords": [],
+  "author": "beardgod7",
+  "license": "ISC",
+  "dependencies": {
+    "database_service":"https://github.com/beardgod7/database_service.git",
+    "amqplib": "^0.10.3",
+    "apollo-server-express": "^3.12.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "cloudinary": "^1.40.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "graphql": "^16.8.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.1"
+  }
+}
